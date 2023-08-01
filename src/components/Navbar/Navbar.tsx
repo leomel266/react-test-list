@@ -21,12 +21,16 @@ const Navbar: React.FC<NavbarInterface> = () => {
       <CustomDialog>
         <FavoriteTable />
       </CustomDialog>
-      <AppBar position="fixed">
+      <AppBar position='fixed'>
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Gentleman Programming React TEST
+          <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
+            React TEST
           </Typography>
-          <IconButton color="secondary" aria-label="favorites" component="label" onClick={handleClick}>
+          <IconButton
+            color='secondary'
+            aria-label='favorites'
+            component='label'
+            onClick={handleClick}>
             <FavoriteIcon />
           </IconButton>
         </Toolbar>
